@@ -1,0 +1,19 @@
+    <div class="container">
+        <h1 class="welcome text-center">Добро пожаловать</h1>
+        <div class="card card-container">
+        <h2 class='login_title text-center'>Регистрация</h2>
+        <hr>
+
+            <form class="form-sign" id=signupform method="post" action="javascript:void(null);" onsubmit="signup()">
+                <p class="input_title">ФИО:</p>
+                <input type="text" id="inputName" class="login_box" name="name" required>
+                <p class="input_title">Email:</p>
+                <input type="email" id="inputEmail" class="login_box" name="email" required>
+                <p class="input_title">Логин:</p>
+                <input type="text" id="inputLogin" class="login_box" name="login" required>
+                <p class="input_title">Пароль:</p>
+                <input type="password" id="inputPassword" class="login_box" name="pwd" required>
+                <button class="btn btn-lg btn-primary" type="submit">Регистрация</button>
+            </form><!-- /form -->
+        </div><!-- /card-container -->
+    </div><!-- /container -->

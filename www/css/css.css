@@ -1,0 +1,172 @@
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic|Playfair+Display+SC:400,700&subset=latin,cyrillic);
+
+.login_box{
+    background:#f7f7f7;
+    border:3px solid #F4F4F4;
+    padding-left: 15px;
+    margin-bottom:25px;
+}
+
+hr{
+    width:100%;
+}
+    
+.welcome{
+    font-family: "myriad-pro",sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    color: darkslategrey;
+    margin-bottom:25px;
+    margin-top:50px;
+
+}
+
+.input_title {
+    color:darkslategrey;
+    margin-bottom: 2px;
+}
+
+.login_title{
+    font-family: "myriad-pro",sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    color:rgba(164, 164, 164, 0.44);
+}
+
+.card-container.card {
+    max-width: 350px;
+}
+
+.btn {
+    font-weight: 700;
+    height: 36px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+    border-radius:0;
+    background:#43A6EB;
+    height: 55px;
+    margin-bottom:10px;
+}
+
+.card {
+    background-color: #FFFFFF;
+    padding: 1px 25px 30px; 
+    margin: 0 auto 25px;
+    margin-top: 15%x;
+}
+
+.form-sign #inputEmail,
+.form-sign #inputPassword,
+.form-sign #inputName,
+.form-sign #inputLogin {
+    direction: ltr;
+    height: 44px;
+    font-size: 16px;
+}
+
+.form-sign input[type=email],
+.form-sign input[type=password],
+.form-sign input[type=text],
+.form-sign button {
+    width: 100%;
+    display: block; 
+    z-index: 1;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-sign .form-control:focus {
+    border-color: rgb(104, 145, 162);
+    outline: 0;
+}
+
+.btn.btn-sign {
+    background-color: rgb(104, 145, 162);
+    padding: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    height: 36px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    -o-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -webkit-transition: all 0.218s;
+    transition: all 0.218s;
+}
+
+.btn.btn-sign:hover,
+.btn.btn-sign:active,
+.btn.btn-sign:focus {
+    background-color: rgb(12, 97, 33);
+}
+
+.active{
+  color:crimson;
+  border-bottom: 5px solid crimson;
+}
+
+h1 {
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 24px;
+  color: #222222;
+  text-align: center;
+}
+
+h4   {
+  font-family: 'Playfair Display SC', serif;
+  color: #222222;
+  text-indent: 50px;
+}
+.post-detail, .post {
+  font-family: 'Arimo', sans-serif;
+}
+.post-detail {
+  width: 100%;
+  margin: 0 auto 10px;
+  text-align: center;
+  }
+.post-info {
+  color: crimson;
+  font-style: italic;
+  position: relative;
+  display: block;
+  font-size: 24px;
+}
+.post-info:before {
+  content: "";
+  border-bottom: 1px solid crimson;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: 0;
+}
+.post-info span {
+  display: inline-block;
+  padding: 0 1.2em;
+  background: #ffffff;
+  position: relative;
+  z-index: 2;
+}
+p, dt {
+  text-indent: 50px;
+  font-size: 16px;
+  line-height: 1.7;
+  color: darkslategrey;
+}
+ul {
+  font-size: 16px;
+  line-height: 1.7;
+  color: darkslategrey;
+}
+.content {
+    margin-bottom: 100px;
+}
